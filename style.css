@@ -45,3 +45,41 @@
     line-height: 70px;
     margin-top: 0;
 }
+
+.discount {
+    text-align: center;
+}
+
+.discount h2 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.discount h5 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.discount h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.new-year-photo{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.new-year-photo img {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    
+
+}
