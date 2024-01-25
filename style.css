@@ -91,18 +91,20 @@
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
+    /* border: 32px; */
+    
 }
 
 .mid-night-party .back-color {
-    background:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-   border: 16px; 
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* border: 16px; */
 }
 
-.mid-night-party .text{
+.mid-night-party .text {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 126px 160px 126px 126px;
+    padding: 80px 138px 55px 126px;
 }
 
 .mid-night-party h3 {
@@ -137,14 +139,10 @@
     justify-content: left;
 }
 
-.mid-night-party h1 {
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-
+.mid-night-party img {
+    width: 319.83px;
+    height: 464.662px;
+    
 }
 
 .location {
@@ -163,17 +161,17 @@
     font-weight: 600;
     line-height: 15px;
     text-transform: capitalize;
-    
+
 }
 
 .location .text h3 {
     margin-bottom: 10px;
 }
 
-.location .text .span-text{
+.location .text .span-text {
     color: #F00;
 }
-    
+
 
 
 .location .text button {
@@ -190,5 +188,79 @@
     border: 0;
     border-radius: 8px;
     margin-top: 35px;
-    
+
+}
+
+.best-offer {
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.best-offer h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.best-offer h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    margin-top: 0;
+
+}
+
+.best-offer .text-1 {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.best-offer h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.best-offer .text-2 {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.best-offer .img-border {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    background-image: url('resources/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.best-offer .img-border .picture {
+    /* width: 364.844px; */
+    /* height: 364.844px; */
+    flex-shrink: 0;
+
 }
