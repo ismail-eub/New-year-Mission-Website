@@ -92,7 +92,7 @@
     height: 600px;
     background-repeat: no-repeat;
     /* border: 32px; */
-    
+
 }
 
 .mid-night-party .back-color {
@@ -104,7 +104,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 80px 138px 55px 126px;
+    padding: 80px 138px 50px 126px;
 }
 
 .mid-night-party h3 {
@@ -127,22 +127,23 @@
     line-height: 25px;
 }
 
-.mid-night-party h5 {
+.mid-night-party a {
     width: 103px;
     height: 24px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     justify-content: left;
+    text-decoration: none;
 }
 
 .mid-night-party img {
     width: 319.83px;
     height: 464.662px;
-    
+
 }
 
 .location {
@@ -168,7 +169,7 @@
     margin-bottom: 10px;
 }
 
-.location .text .span-text {
+.span-text {
     color: #F00;
 }
 
@@ -263,4 +264,61 @@
     /* height: 364.844px; */
     flex-shrink: 0;
 
+}
+
+
+
+.gift {
+    width: 1320px;
+    height: 733px;
+    margin: 0 auto;
+
+}
+
+.gift h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.gift h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.gift p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}
+
+.gift img {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+.gift-image1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.gift-image2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 16px;
 }
